@@ -14,6 +14,7 @@
 		5F9331B31ACC4F3C005517C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9331B21ACC4F3C005517C4 /* Images.xcassets */; };
 		5F9331B61ACC4F3C005517C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9331B41ACC4F3C005517C4 /* LaunchScreen.xib */; };
 		5F9331C21ACC4F3C005517C4 /* Easy_QRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9331C11ACC4F3C005517C4 /* Easy_QRTests.m */; };
+		5F9331CD1ACC4F68005517C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9331CC1ACC4F68005517C4 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		5F9331BB1ACC4F3C005517C4 /* Easy-QRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy-QRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9331C01ACC4F3C005517C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F9331C11ACC4F3C005517C4 /* Easy_QRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_QRTests.m; sourceTree = "<group>"; };
+		5F9331CC1ACC4F68005517C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9331CD1ACC4F68005517C4 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		5F9331991ACC4F3C005517C4 = {
 			isa = PBXGroup;
 			children = (
+				5F9331CB1ACC4F56005517C4 /* Frameworks */,
 				5F9331A41ACC4F3C005517C4 /* Easy-QR */,
 				5F9331BE1ACC4F3C005517C4 /* Easy-QRTests */,
 				5F9331A31ACC4F3C005517C4 /* Products */,
@@ -81,6 +85,7 @@
 		5F9331A41ACC4F3C005517C4 /* Easy-QR */ = {
 			isa = PBXGroup;
 			children = (
+				5F9331CE1ACC5222005517C4 /* assets */,
 				5F9331A91ACC4F3C005517C4 /* AppDelegate.h */,
 				5F9331AA1ACC4F3C005517C4 /* AppDelegate.m */,
 				5F9331AC1ACC4F3C005517C4 /* ViewController.h */,
@@ -117,6 +122,21 @@
 				5F9331C01ACC4F3C005517C4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F9331CB1ACC4F56005517C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F9331CC1ACC4F68005517C4 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F9331CE1ACC5222005517C4 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
