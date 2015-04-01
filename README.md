@@ -1,5 +1,5 @@
 # Easy-QR
-This project shows how to build an easy app that uses CLGeocoder to get information about a location.
+Simple project that demonstrates how to build a QR reader using AVCaptureMetadata
 
 Required frameworks:
 - AVFoundation
